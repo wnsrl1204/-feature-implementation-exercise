@@ -19,6 +19,7 @@ npx create-react-app <name> --template typescript
 ### Clean-up Directorys
 
 ```
+cd .\<name>\
 rmdir -r .\public\
 mkdir public
 
