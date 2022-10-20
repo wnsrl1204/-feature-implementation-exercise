@@ -57,3 +57,17 @@ root.render(
   </React.StrictMode>
 );
 ```
+
+`src/setupTests.ts`
+
+jest-dom adds custom jest matchers for asserting on DOM nodes.
+
+allows you to do things like:
+
+expect(element).toHaveTextContent(/react/i)
+
+learn more: [testing-library](https://github.com/testing-library/jest-dom)
+
+```typescript
+import "@testing-library/jest-dom";
+```
